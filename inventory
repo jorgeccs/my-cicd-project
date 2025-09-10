@@ -1,2 +1,2 @@
 [webserver]
-98.88.24.46 ansible_user=ubuntu ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/docker_key.pem
+107.21.128.45 ansible_user=ubuntu ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/docker_key.pem
