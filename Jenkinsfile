@@ -5,7 +5,7 @@ node {
 
     stage('Clone Repo') {
         // Checkout repository (using Git tool configured in Jenkins)
-        git url: 'https://github.com/amruta1728/my-cicd-project.git', branch: 'master'
+        git url: 'https://github.com/jorgeccs/my-cicd-project.git', branch: 'master'
         // If Jenkins warns about git installation, specify the tool explicitly:
         // git tool: 'Default', url: 'https://github.com/amruta1728/my-cicd-project.git', branch: 'master'
     }
