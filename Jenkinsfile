@@ -16,6 +16,7 @@ node {
             ansiblePlaybook(
                 playbook: 'ansible/deploy.yaml',
                 inventory: 'inventory'
+                credentialsId: 'my-ssh-key'
             )
         }
     }
